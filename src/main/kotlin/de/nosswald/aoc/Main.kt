@@ -1,8 +1,10 @@
 package de.nosswald.aoc
 
-object Main {
-    private val days = listOf<Day>(
+import de.nosswald.aoc.days.*
 
+object Main {
+    private val days = listOf(
+        Day01,
     )
 
     @JvmStatic
